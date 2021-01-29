@@ -4,6 +4,10 @@
     --dark-gray: hsl(0, 0%, 55%);
     --very-dark-gray: hsl(0, 0%, 41%);
   }
+* {
+    padding: 0;
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -11,9 +15,47 @@ body {
     font-family: 'Alata', sans-serif;
     font-size: 100%;
 }
+header {
+    background: no-repeat url('./images/desktop/image-hero.jpg');
+    height: 650px;
+}
 nav {
     display: flex;
-    align-items: center;
+    align-items: center;  
+}
+nav a {
+    color: var(--white);
+}
+.description {
+    background: no-repeat url('./images/desktop/image-interactive.jpg');
+    position: relative;
+    max-width: 650px;
+    max-height: 500px;
+    /* margin: 160px; */
+    object-fit: cover;
+}
+.description-text {
+    background: var(--white);
+    max-width: 650px;
+    max-height: 500px;
+    /* transform: translate(500px, 10px) */
+    /* position: absolute; */
+}
+.headline {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+}
+.hero {
+    padding: 35px 45px ;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--white);
+    border: 2px solid var(--white);
+    width: 650px;
+    height: 275px;
+}
+.hero h1 {
+    font-size: 57px;
 }
 .nav {
     position: absolute;
