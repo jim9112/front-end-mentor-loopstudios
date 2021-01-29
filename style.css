@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    position: absolute;
+    right: 0;
+}
