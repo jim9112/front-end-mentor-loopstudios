@@ -34,8 +34,8 @@ nav a {
 
 .description {
   background: var(--white);
-  max-width: 650px;
-  max-height: 500px;
+  max-width: 550px;
+  min-height: 500px;
   position: absolute;
   left: 735px;
   top: 340px;
